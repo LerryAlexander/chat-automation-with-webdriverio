@@ -1,0 +1,25 @@
+{
+  "name": "chat-automation-with-webdriverio",
+  "version": "1.0.0",
+  "description": "A webdriverIO repository to automate a web chat using Jitsi meeting with two different devices sessions",
+  "main": "index.js",
+  "scripts": {
+    "appium": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Lerry Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^6.1.16",
+    "@wdio/cli": "^6.1.17",
+    "@wdio/local-runner": "^6.1.17",
+    "@wdio/mocha-framework": "^6.1.17",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "appium": "^1.17.1"
+  }
+}
