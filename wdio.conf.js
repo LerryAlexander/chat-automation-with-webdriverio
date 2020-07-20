@@ -51,7 +51,7 @@ exports.config = {
             capabilities: {
                 maxInstances: 1,
                 browserName: 'chrome',
-                avd : 'AndroidEmulator9.0',
+                avd : 'Nexus_2_API_28',
                 platformVersion : '9.0',
                 platformName : 'android',
                 automationName : 'UiAutomator2',
